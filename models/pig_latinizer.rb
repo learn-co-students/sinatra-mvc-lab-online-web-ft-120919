@@ -1,7 +1,7 @@
 class PigLatinizer
-  CONSONANTS = 'BCDFGHJKLMNPQRSTVWXYZ'
+  #CONSONANTS = 'BCDFGHJKLMNPQRSTVWXYZ'
   VOWELS = 'AEOIU'
-  COMBOS = ['PL', 'TH', 'SPR', 'PR']
+  COMBOS = ['PL', 'TH', 'SPR', 'PR', 'STR', 'SK', 'WH']
 
   def piglatinize(word)
 
