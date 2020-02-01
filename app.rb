@@ -8,5 +8,11 @@ class App < Sinatra::Base
         erb :user_input
     end
 
+    post '/piglatinize' do 
+        @analyzed_text = TextAnalyzer.new(params[:user_text])
+
+
+    end
+
    
 end
