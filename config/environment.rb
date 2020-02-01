@@ -5,4 +5,4 @@ Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require './app'
 require_all 'models'
-# require_relative 'models/piglatinizer.rb'
+# require_relative '../models/piglatinizer.rb'
