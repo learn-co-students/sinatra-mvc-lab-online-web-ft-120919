@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/piglatinize' do 
-
+        # make a new .rb file in views?
 
     end
 
