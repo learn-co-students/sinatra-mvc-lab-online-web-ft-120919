@@ -10,7 +10,10 @@ class App < Sinatra::Base
 
     post '/piglatinize' do 
         # make a new .rb file in views?
+        pl = PigLatinizer.new
+        @phrase = pl.piglatinize(params[:user_phrase])
 
+        erb :view_file
     end
 
    
