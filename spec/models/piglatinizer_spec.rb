@@ -1,4 +1,3 @@
-<<-DOC
 describe 'class PigLatinizer' do
   let!(:words) { PigLatinizer.new }
 
@@ -24,4 +23,3 @@ describe 'class PigLatinizer' do
     expect(words.piglatinize("i love programming")).to eq("iway ovelay ogrammingpray")
   end
 end
-DOC
