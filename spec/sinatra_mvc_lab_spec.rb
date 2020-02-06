@@ -1,4 +1,5 @@
 describe "Pig Latinizer App" do
+  <<-DOC
   describe "GET '/'" do
 
     before(:each) do
@@ -59,5 +60,5 @@ describe "Pig Latinizer App" do
       expect(last_response.body).to include("eHay asway anway oldway anmay owhay ishedfay aloneway inway away iffskay inway ethay ulfGay eamStray andway ehay adhay onegay eightyway ourfay aysday ownay ithoutway akingtay away ishfay")
     end
   end
-
+  DOC
 end
